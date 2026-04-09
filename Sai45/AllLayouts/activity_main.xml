@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="5"
+    android:columnCount="2"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Android Layouts"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_columnSpan="2"
+        android:layout_columnWeight="1"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnHorizontal"
+        android:text="Horizontal Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnVertical"
+        android:text="Vertical Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnConstraint"
+        android:text="Constraint Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnGrid"
+        android:text="Grid Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnRelative"
+        android:text="Relative Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnFrame"
+        android:text="Frame Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnAbsolute"
+        android:text="Absolute Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+    <Button
+        android:id="@+id/btnLinear"
+        android:text="Linear Layout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"/>
+
+</GridLayout>

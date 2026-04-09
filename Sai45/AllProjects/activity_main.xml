@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All My Projects"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- 3x3 Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <!-- 9 Buttons -->
+        <Button
+            android:id="@+id/btnProject1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Color Change"/>
+
+        <Button
+            android:id="@+id/btnProject2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Image Change"/>
+
+        <Button
+            android:id="@+id/btnProject3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Profile"/>
+
+        <Button
+            android:id="@+id/btnProject4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Calculator"/>
+
+        <Button
+            android:id="@+id/btnProject5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Implicite Intent"/>
+
+        <Button
+            android:id="@+id/btnProject6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="MultiWebsite"/>
+
+        <Button
+            android:id="@+id/btnProject7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Explicite Intent"/>
+
+        <Button
+            android:id="@+id/btnProject8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="All Layouts"/>
+
+        <Button
+            android:id="@+id/btnProject9"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_columnWeight="1"
+            android:text="Project 9"/>
+
+    </GridLayout>
+
+</LinearLayout>

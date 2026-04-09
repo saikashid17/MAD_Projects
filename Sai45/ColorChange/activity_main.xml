@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnRed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RED" />
+
+    <Button
+        android:id="@+id/btnRed2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GREEN" />
+
+    <Button
+        android:id="@+id/btnYellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="YELLOW" />
+
+</LinearLayout>
